@@ -1,0 +1,854 @@
+@import 'base/base';
+@import './base/variables';
+@import 'components/header';
+@import 'components/footer';
+@import './fonts.css';
+
+.main {
+    width: 940px;
+    margin: auto;
+}
+
+.block1-text {
+    font-size: 26px;
+    font-family: 'MontserratBold';
+    color: $FontColor2;
+    text-align: center;
+    margin: 89px 0 0;
+}
+
+.block1-box {
+    width: 100%;
+    height: 300px;
+    margin: 35px 0 0;
+    display: flex;
+    justify-content: space-between;
+
+    &-left {
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        
+        &-button {
+            width: 70px;
+            height: 20px;
+            background-color: $AccentColor;
+            color: $FontColor1;
+            font-family: 'MontserratRegular';
+            font-size: 10px;
+            text-align: center;
+            line-height: 20px;
+            letter-spacing: 2px;
+            border-radius: 40px;
+            margin: 0 0 15px 25px;
+        }
+
+        &-primary {
+            font-size: 24px;
+            color: $FontColor1;
+            font-family: 'MontserratBold';
+            margin: 0 0 10px 25px;
+        }
+
+        &-secondary {
+            font-size: 14px;
+            color: $FontColor1;
+            font-family: 'RobotoLight';
+            margin: 0 25px 21px;
+        }
+    }
+
+    &-center {
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        
+
+        &-button {
+            width: 70px;
+            height: 20px;
+            background-color: $AccentColor;
+            color: $FontColor1;
+            font-family: 'MontserratRegular';
+            font-size: 10px;
+            text-align: center;
+            line-height: 20px;
+            letter-spacing: 2px;
+            border-radius: 40px;
+            margin: 0 0 15px 25px;
+        }
+
+        &-primary {
+            font-size: 24px;
+            color: $FontColor1;
+            font-family: 'MontserratBold';
+            margin: 0 0 10px 25px;
+        }
+
+        &-secondary {
+            font-size: 14px;
+            color: $FontColor1;
+            font-family: 'RobotoLight';
+            margin: 0 25px 21px;
+        }
+    }
+
+    &-right {
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        
+        &-button {
+            width: 70px;
+            height: 20px;
+            background-color: $AccentColor;
+            color: $FontColor1;
+            font-family: 'MontserratRegular';
+            font-size: 10px;
+            text-align: center;
+            line-height: 20px;
+            letter-spacing: 2px;
+            border-radius: 40px;
+            margin: 0 0 15px 25px;
+        }
+
+        &-primary {
+            font-size: 24px;
+            color: $FontColor1;
+            font-family: 'MontserratBold';
+            margin: 0 0 10px 25px;
+        }
+
+        &-secondary {
+            font-size: 14px;
+            color: $FontColor1;
+            font-family: 'RobotoLight';
+            margin: 0 25px 21px;
+        }
+    }
+}
+
+.block2-text {
+    font-size: 26px;
+    font-family: 'MontserratBold';
+    color: $FontColor2;
+    text-align: center;
+    margin: 189px 0 35px;
+}
+
+.block2-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    &-container {
+        width: 221px;
+        height: 224px;
+    }
+
+    &-img {
+        width: 120px;
+        height: 120px;
+        margin: auto;
+    }
+
+    &-name {
+        font-size: 14px;
+        color: $FontColor2;
+        font-family: 'MontserratBold';
+        text-align: center;
+        margin: 17px 0 12px;
+    }
+
+    &-title {
+        font-size: 14px;
+        color: $FontColor2;
+        font-family: 'RobotoLight';
+        text-align: center;
+    }
+
+    &-icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 16px;
+        border: 3px solid #fff;
+        position: relative;
+        top: -37px;
+        left: 87px;
+        text-align: center;
+        line-height: 34px;
+    }
+
+    &-button {
+        width: 180px;
+        height: 40px;
+        border-radius: 40px;
+        border: 2px solid $AccentColor;
+        font-size: 14px;
+        font-family: 'MontserratBold';
+        line-height: 40px;
+        text-align: center;
+        color: $AccentColor;
+        margin: 36px auto;
+    }
+}
+
+.block3-text {
+    font-size: 26px;
+    font-family: 'MontserratBold';
+    color: $FontColor2;
+    text-align: center;
+    margin: 89px 0 35px;
+}
+
+.block3-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-container-small {
+        width: 300px;
+        height: 310px;
+        margin: 0 0 20px 0;
+    }
+
+    &-container-big {
+        width: 620px;
+        height: 310px;
+    }
+
+    &-text {
+        margin: auto;
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor1;
+        text-align: center;
+        margin: 142px 0 0 ;
+    }
+
+}
+
+.block4-text {
+    font-size: 26px;
+    font-family: 'MontserratBold';
+    color: $FontColor2;
+    text-align: center;
+}
+
+.block4-title {
+    font-size: 18px;
+    font-family: 'RobotoLight';
+    color: $FontColor2;
+    text-align: center;
+    margin: 43px 0 25px 0;
+}
+
+.block4-box {
+    width: 482px;
+    height: 158px;
+    margin: 75px auto;
+
+    &-input {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-button {
+        width: 172px;
+        height: 40px;
+        border-radius: 40px;
+        background-color: $AccentColor;
+        color: $FontColor1;
+        font-size: 14px;
+        font-family: 'MontserratBold';
+        text-align: center;
+        line-height: 40px;
+    }
+}
+
+input {
+    width: 299px;
+    height: 40px;
+    padding: 0 0 0 15px;
+}
+
+hr {
+    height: 2px;
+    background-color: $AccentColor;
+    margin: 103px 0 0 0;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 748px;
+        margin: auto;
+    }
+
+    .block1-text {
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+        margin: 89px 0 0;
+    }
+
+    .block1-box {
+        width: 100%;
+        height: 300px;
+        margin: 35px 0 0;
+        display: flex;
+        justify-content: space-between;
+    
+        &-left {
+            width: 236px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            
+            &-button {
+                width: 70px;
+                height: 20px;
+                background-color: $AccentColor;
+                color: $FontColor1;
+                font-family: 'MontserratRegular';
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+                letter-spacing: 2px;
+                border-radius: 40px;
+                margin: 0 0 44px 20px;
+            }
+    
+            &-primary {
+                font-size: 24px;
+                color: $FontColor1;
+                font-family: 'MontserratBold';
+                margin: 0 0 10px 20px;
+                line-height: 21px;
+            }
+    
+            &-secondary {
+                font-size: 14px;
+                color: $FontColor1;
+                font-family: 'RobotoLight';
+                margin: 0 20px 21px;
+                line-height: 14px;
+            }
+        }
+    
+        &-center {
+            width: 236px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            
+    
+            &-button {
+                width: 70px;
+                height: 20px;
+                background-color: $AccentColor;
+                color: $FontColor1;
+                font-family: 'MontserratRegular';
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+                letter-spacing: 2px;
+                border-radius: 40px;
+                margin: 0 0 17px 20px;
+            }
+    
+            &-primary {
+                font-size: 24px;
+                color: $FontColor1;
+                font-family: 'MontserratBold';
+                margin: 0 20px 10px 20px;
+                line-height: 21px;
+            }
+    
+            &-secondary {
+                font-size: 14px;
+                color: $FontColor1;
+                font-family: 'RobotoLight';
+                margin: 0 20px 21px;
+                line-height: 14px;
+            }
+        }
+    
+        &-right {
+            width: 236px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            
+            &-button {
+                width: 70px;
+                height: 20px;
+                background-color: $AccentColor;
+                color: $FontColor1;
+                font-family: 'MontserratRegular';
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+                letter-spacing: 2px;
+                border-radius: 40px;
+                margin: 0 0 44px 20px;
+            }
+    
+            &-primary {
+                font-size: 24px;
+                color: $FontColor1;
+                font-family: 'MontserratBold';
+                margin: 0 0 10px 20px;
+                line-height: 21px;
+            }
+    
+            &-secondary {
+                font-size: 14px;
+                color: $FontColor1;
+                font-family: 'RobotoLight';
+                margin: 0 20px 21px;
+                line-height: 14px;
+            }
+        }
+    }
+
+    .block2-text {
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+        margin: 189px 0 35px;
+    }
+
+    .block2-box {
+        width: 492px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        &-container {
+            width: 236px;
+            height: 224px;
+        }
+    
+        &-img {
+            width: 120px;
+            height: 120px;
+            margin: auto;
+        }
+    
+        &-name {
+            font-size: 14px;
+            color: $FontColor2;
+            font-family: 'MontserratBold';
+            text-align: center;
+            margin: 17px 0 12px;
+        }
+    
+        &-title {
+            font-size: 14px;
+            color: $FontColor2;
+            font-family: 'RobotoLight';
+            text-align: center;
+        }
+    
+        &-icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 16px;
+            border: 3px solid #fff;
+            position: relative;
+            top: -37px;
+            left: 87px;
+            text-align: center;
+            line-height: 34px;
+        }
+    
+        &-button {
+            width: 180px;
+            height: 40px;
+            border-radius: 40px;
+            border: 2px solid $AccentColor;
+            font-size: 14px;
+            font-family: 'MontserratBold';
+            line-height: 40px;
+            text-align: center;
+            color: $AccentColor;
+            margin: 40px auto;
+        }
+    }
+
+    .block3-text {
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+        margin: 89px 0 35px;
+    }
+
+    .block3-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+        &-container-small {
+            width: 236px;
+            height: 310px;
+            margin: 0 0 20px 0;
+        }
+    
+        &-container-big {
+            width: 492px;
+            height: 310px;
+        }
+    
+        &-text {
+            margin: auto;
+            font-size: 22px;
+            font-family: 'MontserratBold';
+            color: $FontColor1;
+            text-align: center;
+            margin: 142px 0 0 ;
+        }
+    
+    }
+
+    .block4-text {
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main {
+        width: 320px;
+        margin: auto;
+    }
+    
+    .block1-text {
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+        margin: 34px 0 0;
+    }
+
+    .block1-box {
+        width: 100%;
+        height: 740px;
+        margin: 15px 0 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        &-left {
+            width: 300px;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            
+            &-button {
+                width: 70px;
+                height: 20px;
+                background-color: $AccentColor;
+                color: $FontColor1;
+                font-family: 'MontserratRegular';
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+                letter-spacing: 2px;
+                border-radius: 40px;
+                margin: 0 0 44px 20px;
+            }
+    
+            &-primary {
+                font-size: 24px;
+                color: $FontColor1;
+                font-family: 'MontserratBold';
+                margin: 0 0 10px 20px;
+                line-height: 21px;
+            }
+    
+            &-secondary {
+                font-size: 14px;
+                color: $FontColor1;
+                font-family: 'RobotoLight';
+                margin: 0 20px 21px;
+                line-height: 14px;
+            }
+        }
+    
+        &-center {
+            width: 300px;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            
+    
+            &-button {
+                width: 70px;
+                height: 20px;
+                background-color: $AccentColor;
+                color: $FontColor1;
+                font-family: 'MontserratRegular';
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+                letter-spacing: 2px;
+                border-radius: 40px;
+                margin: 0 0 17px 20px;
+            }
+    
+            &-primary {
+                font-size: 24px;
+                color: $FontColor1;
+                font-family: 'MontserratBold';
+                margin: 0 20px 10px 20px;
+                line-height: 21px;
+            }
+    
+            &-secondary {
+                font-size: 14px;
+                color: $FontColor1;
+                font-family: 'RobotoLight';
+                margin: 0 20px 21px;
+                line-height: 14px;
+            }
+        }
+    
+        &-right {
+            width: 300px;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            
+            &-button {
+                width: 70px;
+                height: 20px;
+                background-color: $AccentColor;
+                color: $FontColor1;
+                font-family: 'MontserratRegular';
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+                letter-spacing: 2px;
+                border-radius: 40px;
+                margin: 0 0 44px 20px;
+            }
+    
+            &-primary {
+                font-size: 24px;
+                color: $FontColor1;
+                font-family: 'MontserratBold';
+                margin: 0 0 10px 20px;
+                line-height: 21px;
+            }
+    
+            &-secondary {
+                font-size: 14px;
+                color: $FontColor1;
+                font-family: 'RobotoLight';
+                margin: 0 20px 21px;
+                line-height: 14px;
+            }
+        }
+    }
+
+    .block2-text {
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+        margin: 36px 0 14px;
+    }
+
+    .block2-box {
+        width: 300px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        &-container {
+            width: 236px;
+            height: 224px;
+        }
+    
+        &-img {
+            width: 120px;
+            height: 120px;
+            margin: auto;
+        }
+    
+        &-name {
+            font-size: 14px;
+            color: $FontColor2;
+            font-family: 'MontserratBold';
+            text-align: center;
+            margin: 17px 0 12px;
+        }
+    
+        &-title {
+            font-size: 14px;
+            color: $FontColor2;
+            font-family: 'RobotoLight';
+            text-align: center;
+        }
+    
+        &-icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 16px;
+            border: 3px solid #fff;
+            position: relative;
+            top: -37px;
+            left: 87px;
+            text-align: center;
+            line-height: 34px;
+        }
+    
+        &-button {
+            width: 280px;
+            height: 40px;
+            border-radius: 40px;
+            border: 2px solid $AccentColor;
+            font-size: 14px;
+            font-family: 'MontserratBold';
+            line-height: 40px;
+            text-align: center;
+            color: $AccentColor;
+            margin: 36px auto;
+        }
+    }
+
+    .block3-text {
+        width: 280px;
+        height: 54px;
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+        margin: 35px 0 33px;
+    }
+
+    .block3-box {
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    
+        &-container-small {
+            width: 300px;
+            height: 120px;
+            margin: 0 0 10px 0;
+        }
+    
+        &-container-big {
+            width: 300px;
+            height: 120px;
+            margin: 0 0 10px 0;
+        }
+    
+        &-text {
+            font-size: 22px;
+            font-family: 'MontserratBold';
+            color: $FontColor1;
+            text-align: center;
+        }
+    
+    }
+
+    #one {
+        width: 206px;
+        height: 54px;
+        margin: 33px auto;
+    }
+
+    #two {
+        margin: 47px auto;
+    }
+
+    .block4-box {
+        width: 280px;
+        height: 158px;
+        margin: 35px auto;
+    
+        &-input {
+            display: block;
+        }
+    
+        &-button {
+            width: 280px;
+            height: 40px;
+            border-radius: 40px;
+            background-color: $AccentColor;
+            color: $FontColor1;
+            font-size: 14px;
+            font-family: 'MontserratBold';
+            text-align: center;
+            line-height: 40px;
+        }
+    }
+
+    input {
+        width: 280px;
+        height: 40px;
+        padding: 0 0 0 15px;
+        margin: 0 0 10px;
+    }
+
+    .block4-text {
+        width: 280px;
+        height: 54px;
+        font-size: 22px;
+        font-family: 'MontserratBold';
+        color: $FontColor2;
+        text-align: center;
+        margin: auto;
+    }
+
+    .block4-title {
+        font-size: 18px;
+        font-family: 'RobotoLight';
+        color: $FontColor2;
+        text-align: center;
+        margin: 9px 0 15px 0;
+    }
+
+    hr {
+        height: 2px;
+        background-color: $AccentColor;
+        margin: 80px 0 0;
+        border: none;
+    }
+}
